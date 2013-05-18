@@ -3,8 +3,7 @@
 <p>Calibration is the process in which the geometrical relationships (distance shift, rotation) between two cameras located on a different points is calculated. The result of the calibration is the translation vector T and the rotation matrix R that can be later used for undistorting both single and stereo images. OpenCV implements functions useful for doing all the calculations required for stereo calibration in the function cvStereoCalibrate(). The function outputs the essential and fundamental matrices that can be saved as XML files and easily reused in other applications using the same set-up.</p>
 
 <p>In practice, you need around 15-20 stereo images from cameras aligned at one axis. They all have to feature chessboard in various positions. It is important that the chessboard has been recognised on both of them. I wrote a small program sniper.cpp that comes in very handy when preparing those.</b>
-
-For calibration you can use the code from Learning OpenCV book. Binary attached in calibration folder.
+<p>For calibration you can use the code from Learning OpenCV book. Binary attached in calibration folder.</p>
 
 <b>Stereo vision</b>
 
